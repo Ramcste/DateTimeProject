@@ -1,0 +1,15 @@
+﻿<Window x:Class="DateTimeProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        
+        <TextBox Margin="10,45,10,226"/>
+        
+        <DatePickerTextBox Name="DateOfBirthTextBox"  Margin="10,150,10,128"></DatePickerTextBox>
+        <Button Content="Save" Name="SaveButton"  HorizontalAlignment="Left" Margin="200,231,0,0" VerticalAlignment="Top" Width="106" Height="36" Click="SaveButton_Click"/>
+
+
+
+    </Grid>
+</Window>
